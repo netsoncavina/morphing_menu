@@ -210,9 +210,8 @@ a:hover {
 
 .card {
   height: 300px;
-  width: 400px;
+  width: 500px;
   margin: 3rem 0 0;
-  background-image: url("./landscape.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,6 +222,22 @@ a:hover {
   color: #ffff;
   cursor: pointer;
   transition: 0.3s;
+}
+
+#project1 {
+  background-image: url("./project1.png");
+}
+#project2 {
+  background-image: url("./project2.png");
+}
+#project3 {
+  background-image: url("./project3.png");
+}
+#project4 {
+  background-image: url("./project4.png");
+}
+#project5 {
+  background-image: url("./project5.png");
 }
 
 .card-text {
@@ -275,7 +290,7 @@ a:hover {
 
 .card:hover > .card-wrapper::before {
   opacity: 1;
-  width: 350px;
+  width: 450px;
   height: 250px;
 }
 
@@ -302,13 +317,13 @@ a:hover {
   .card-container {
     flex-direction: column;
   }
-  .container .card-container:nth-child(1),
-  .container .card-container:nth-child(3) {
+  .container .card-container:nth-child(2),
+  .container .card-container:nth-child(4) {
     flex-direction: column-reverse;
   }
   .card {
     height: 250px;
-    width: 350px;
+    width: 480px;
   }
   .card-text {
     width: 90%;
@@ -316,7 +331,7 @@ a:hover {
     text-align: center;
   }
   .card:hover > .card-wrapper::before {
-    width: 190px;
-    height: 190px;
+    width: 450px;
+    height: 200px;
   }
 }
